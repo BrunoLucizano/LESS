@@ -9,7 +9,7 @@
   font-family: 'Roboto', sans-serif;
 }
 body {
-  background-color: #341f97;
+  background-color: #a29bfe;
   color: #c8d6e5;
 }
 li {
@@ -37,6 +37,7 @@ li {
 }
 header {
   padding-bottom: 24px;
+  padding-top: 32px;
 }
 header .profile-avatar {
   display: block;
@@ -45,13 +46,14 @@ header .profile-avatar {
 }
 .profile-bio {
   text-align: center;
+  color: #2d3436;
 }
 .profile-bio-name {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 8px;
 }
 .profile-bio-subtitle {
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 8px;
 }
 .profile-bio-description {
@@ -76,7 +78,7 @@ header .profile-avatar {
 }
 .projects-list-item a {
   text-decoration: none;
-  background-color: #5f27cd;
+  background-color: #6c5ce7;
   display: block;
   padding: 16px 20px;
   margin-bottom: 16px;
@@ -84,10 +86,10 @@ header .profile-avatar {
   color: #c8d6e5;
   font-weight: bold;
   border-radius: 30px;
-  border: 2px solid #5f27cd;
+  border: 2px solid #6c5ce7;
   transition: all ease 0.5s;
 }
 .projects-list-item a:hover {
-  color: #74b9ff;
+  color: #636e72;
   background-color: transparent;
 }
